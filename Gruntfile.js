@@ -49,8 +49,8 @@ module.exports = function (grunt) {
                 junit: {
                     path: 'output/testresults'
                 }, 
-                //vendor:'http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'
-                vendor:'libs/jquery.js'
+                vendor:'http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+                // vendor: 'libs/jquery.js'
             }
         }
     };
