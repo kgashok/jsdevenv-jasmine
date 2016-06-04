@@ -1,7 +1,7 @@
 /*global $:false */
 /*jshint quotmark: false */
 /*jshint loopfunc: true */
-/*global window*/
+/*global window, console */
 (function (window) {
     'use strict';
 
