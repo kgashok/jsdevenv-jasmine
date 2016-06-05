@@ -2,12 +2,7 @@
 describe('util/getBrownies', function () {
     'use strict';
 
-    //var gBot = window.getBrownies; 
-
-    /*beforeEach(function () {
-        spyOn($, 'ajax').and.returnValue(0.85);
-    }); */
-
+    /*
     it('should return 174 for kgashok', function (done) {
     function getProduct (id, callback) {
         $.ajax({
@@ -27,49 +22,48 @@ describe('util/getBrownies', function () {
             expect(result).toBe(174);
             done();
         });
+    });  */
+
+    var gBot = window.getBrownies;     
+    it('should return 174 for kgashok', function () {
+        expect(gBot.getPoints('kgashok')).toBe(174);
     });
 
     /*
-    it('should return 174 for kgashok', function () {
 
-        expect(gBot.getPoints('kgashok')).toBe(174);
+    function getProduct(id, callback) {
+        $.ajax({
+            type: "GET",
+            url: "data.json",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: callback
+        });
+    }
+
+    spyOn($, 'ajax').and.callFake(function(options) {
+        options.success();
+    });
+    var callback = jasmine.createSpy();
+    expect(gBot.getPoints('kgashok', callback);
+    getProduct ('132', callback); 
+
+    expect(callback).toHaveBeenCalled();
     
+    var callback = jasmine.createSpy();
+    //gBot.getPoints('kgashok', callback);
 
-        /*
+    
+    getProduct ('123', callback);
+    waitsFor(function() {
+        return callback.callCount > 0;
+    });
 
-        function getProduct(id, callback) {
-            $.ajax({
-                type: "GET",
-                url: "data.json",
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: callback
-            });
-        }
-
-        spyOn($, 'ajax').and.callFake(function(options) {
-            options.success();
-        });
-        var callback = jasmine.createSpy();
-        expect(gBot.getPoints('kgashok', callback);
-        getProduct ('132', callback); 
-
+    runs(function() {
         expect(callback).toHaveBeenCalled();
-        
-        var callback = jasmine.createSpy();
-        //gBot.getPoints('kgashok', callback);
+    });  */
 
-        
-        getProduct ('123', callback);
-        waitsFor(function() {
-            return callback.callCount > 0;
-        });
 
-        runs(function() {
-            expect(callback).toHaveBeenCalled();
-        });  
-
-    }); */
     
     it('length-zero user name', function () {
         expect (1).toBe(2);

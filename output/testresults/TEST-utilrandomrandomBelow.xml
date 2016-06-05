@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="util.random randomBelow" errors="0" tests="2" failures="0" time="0.004" timestamp="Sat Jun 04 2016 11:53:56 GMT+0530 (IST)">
+  <testsuite name="util.random randomBelow" errors="0" tests="2" failures="0" time="0.007" timestamp="Sun Jun 05 2016 14:58:42 GMT+0530 (IST)">
     
-      <testcase assertions="0" classname="util.random randomBelow" name="should multiply correctly" time="0.001">
+      <testcase assertions="0" classname="util.random randomBelow" name="should multiply correctly" time="0.003">
         
       </testcase>
     
-      <testcase assertions="0" classname="util.random randomBelow" name="should validate its arguments" time="0.001">
+      <testcase assertions="0" classname="util.random randomBelow" name="should validate its arguments" time="0.002">
         
       </testcase>
     

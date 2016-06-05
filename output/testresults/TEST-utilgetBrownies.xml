@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="util/getBrownies" errors="1" tests="2" failures="1" time="0.008" timestamp="Sat Jun 04 2016 11:53:56 GMT+0530 (IST)">
+  <testsuite name="util/getBrownies" errors="2" tests="2" failures="2" time="0.033" timestamp="Sun Jun 05 2016 14:58:42 GMT+0530 (IST)">
     
-      <testcase assertions="0" classname="util/getBrownies" name="should return 174 for kgashok" time="0.003">
+      <testcase assertions="0" classname="util/getBrownies" name="should return 174 for kgashok" time="0.024">
+        
+          <failure><![CDATA[Expected 0 to be 174.]]></failure>
         
       </testcase>
     
-      <testcase assertions="0" classname="util/getBrownies" name="length-zero user name" time="0.002">
+      <testcase assertions="0" classname="util/getBrownies" name="length-zero user name" time="0.001">
         
           <failure><![CDATA[Expected 1 to be 2.]]></failure>
         
