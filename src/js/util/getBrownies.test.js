@@ -25,8 +25,9 @@ describe('util/getBrownies', function () {
     });  */
 
     var gBot = window.getBrownies;     
-    it('should return 174 for kgashok', function () {
+    it('should return 174 for kgashok', function (done) {
         expect(gBot.getPoints('kgashok')).toBe(174);
+        done();
     });
 
     /*
