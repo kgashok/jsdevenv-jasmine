@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="util/getBrownies" errors="1" tests="2" failures="1" time="0.022" timestamp="Wed Jun 08 2016 08:39:43 GMT+0530 (IST)">
+  <testsuite name="util/getBrownies" errors="1" tests="1" failures="1" time="0.007" timestamp="Wed Jun 08 2016 22:35:50 GMT+0530 (IST)">
     
-      <testcase assertions="0" classname="util/getBrownies" name="should return 174 for kgashok" time="0.009">
+      <testcase assertions="0" classname="util/getBrownies" name="successful ajax request" time="0.005">
         
-      </testcase>
-    
-      <testcase assertions="0" classname="util/getBrownies" name="length-zero user name" time="0.006">
-        
-          <failure><![CDATA[Expected 1 to be 2.]]></failure>
+          <failure><![CDATA[TypeError: undefined is not an object (evaluating 'data.about.browniePoints') in file:///home/ashokb/hero/jasmine/src/js/util/getBrownies.test.js (line 39)]]></failure>
         
       </testcase>
     

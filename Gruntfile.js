@@ -27,7 +27,7 @@ module.exports = function (grunt) {
         options: { bitwise: true, camelcase: true, curly: true, eqeqeq: true, forin: true, immed: true,
             indent: 4, latedef: true, newcap: true, noarg: true, noempty: true, nonew: true, plusplus: true,
             quotmark: true, regexp: true, undef: true, unused: true, strict: true, trailing: true,
-            maxparams: 3, maxdepth: 2, maxstatements: 50},
+            maxparams: 3, maxdepth: 2, maxstatements: 50, jasmine:true},
         all: [
             'Gruntfile.js',
             'src/js/**/*.js'
