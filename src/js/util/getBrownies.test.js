@@ -1,8 +1,20 @@
-/*global $:false, describe, spyOn, it, expect */
+/* global jasmine, $:false, window, spyOn, describe, it, expect */
+
+// global jasmine, window, describe, it, expect */
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
+
 describe('util/getBrownies', function () {
     'use strict';
 
-    /*
+    /*it('should return 174 for kgashok', function (done) {
+        var gBot = window.getBrownies;
+        var val  = gBot.getPoints('kgashok'); 
+
+        expect (val).toBe(174); 
+        done();
+    }); */
+
+    
     it('should return 174 for kgashok', function (done) {
     function getProduct (id, callback) {
         $.ajax({
@@ -22,12 +34,18 @@ describe('util/getBrownies', function () {
             expect(result).toBe(174);
             done();
         });
-    });  */
+    });  
 
-    var gBot = window.getBrownies;     
-    it('should return 174 for kgashok', function () {
-        expect(gBot.getPoints('kgashok')).toBe(174);
+    /*
+    it('should return 174 for kgashok', function (done) {
+        var val = gBot.getPoints('kgashok'); 
+        setTimeout (function() {
+            expect(val).toBe(174); 
+            done();
+        } );
     });
+    */
+
 
     /*
 
