@@ -1,4 +1,4 @@
-/* global jasmine, $:false, window, spyOn, describe, it, expect */
+/* global jasmine, $:false, spyOn, describe, it, expect */
 
 // global jasmine, window, describe, it, expect */
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
