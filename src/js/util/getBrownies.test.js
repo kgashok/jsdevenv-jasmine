@@ -36,8 +36,8 @@ describe('util/getBrownies', function () {
 
       getProduct ('kgashok', function (data) {
         console.log ("Success!!! " + data); 
-        // points = data.about.browniePoints;
-        // expect(data.about.browniePoints).toBe(174);
+        points = data.about.browniePoints;
+        expect(points).toBe(174);
         done();
       });
 

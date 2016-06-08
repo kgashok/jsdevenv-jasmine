@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="util.random" errors="0" tests="0" failures="0" time="0.008" timestamp="Wed Jun 08 2016 22:35:50 GMT+0530 (IST)">
+  <testsuite name="util.random" errors="0" tests="0" failures="0" time="0.01" timestamp="Wed Jun 08 2016 22:44:09 GMT+0530 (IST)">
     
   </testsuite>
 

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="util/getBrownies" errors="1" tests="1" failures="1" time="0.007" timestamp="Wed Jun 08 2016 22:35:50 GMT+0530 (IST)">
+  <testsuite name="util/getBrownies" errors="2" tests="1" failures="1" time="5.036" timestamp="Wed Jun 08 2016 22:44:04 GMT+0530 (IST)">
     
-      <testcase assertions="0" classname="util/getBrownies" name="successful ajax request" time="0.005">
+      <testcase assertions="0" classname="util/getBrownies" name="successful ajax request" time="5.026">
         
-          <failure><![CDATA[TypeError: undefined is not an object (evaluating 'data.about.browniePoints') in file:///home/ashokb/hero/jasmine/src/js/util/getBrownies.test.js (line 39)]]></failure>
+          <failure><![CDATA[Expected 0 to be 1.]]></failure>
+        
+          <failure><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.]]></failure>
         
       </testcase>
     
